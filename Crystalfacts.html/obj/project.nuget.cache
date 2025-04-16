@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1EkC3eusMRQ=",
+  "dgSpecHash": "gUvDzb89NL4=",
   "success": true,
   "projectFilePath": "C:\\Users\\15756\\repos\\Crystalfacts.html\\Crystalfacts.html\\Crystalfacts.html.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\15756\\.nuget\\packages\\emojione\\4.5.0\\emojione.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

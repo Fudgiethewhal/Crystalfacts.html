@@ -11,4 +11,8 @@
       <Folder Include="Images\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="EmojiOne" Version="4.5.0" />
+    </ItemGroup>
+
 </Project>
