@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Crystalfacts.html")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31db8ca3f23fcb18139a7224bb6eccc0dd556442")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b57dfab274dd8fe48d1a4bb30df145ea21cbe9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Crystalfacts.html")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Crystalfacts.html")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
