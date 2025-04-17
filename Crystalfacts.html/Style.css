@@ -8,8 +8,8 @@
 .forest{
     width: 100%;
     height: 100vh;
-    -webkit-background-image: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
-    position: center;
+    -webkit-background-size: cover;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,23 +24,28 @@ nav{
     display: flex;
     align-items:center;
     justify-content: safe;
+    
 }
 nav .Amethyst{
-    width: 80px;
+    width: 40px;
 }
 nav ul li{
     list-style: none;
     display: inline-block;
     margin-left: 40px;
+    background-image:linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+
 }
+
 nav ul li a{
     text-decoration: none;
     color: #8c0885;
     font-size: 17px;
+    
 }
 .content{
     text-align: center;
-    
+        
 }
 .content h1{
     font-size: 20px;
