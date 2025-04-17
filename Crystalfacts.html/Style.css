@@ -1,8 +1,9 @@
 ﻿*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
 }
 
 .forest {
@@ -23,34 +24,47 @@ nav{
     padding: 20px 8%;
     display: flex;
     align-items:center;
-    justify-content: space-between ;
+    justify-content: center;
     
 }
-nav .Amethyst{
-    width: 40px;
+nav ol li a{
+    text-decoration: none;
+    color: #8c0885;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    background-image:linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
 }
+
 nav ul li{
     list-style: none;
     display: inline-block;
     margin-left: 40px;
     background-image:linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
-
+    font-family: 'Dancing Script', cursive;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: #8c0885;
-    font-size: 17px;
-    
+
+nav ul li{
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: #5a1e5a;
+    font-weight: normal;
+    transition: 0.5s;
+    text-align: justify-all;
+    margin: 20px 0;
+    -webkit-background-image:linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
 }
 
 h1,h2,h3 {
-    font-size: 20px;
+    font-size: 36px;
+    font-family: 'Dancing Script', cursive;
     color: #5a1e5a;
-    font-weight: 100;
+    font-weight: normal;
     transition: 0.5s;
     text-align: center;
     margin: 20px 0;
+    -webkit-background-image:linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+
 }
 
 h1:hover{
@@ -69,7 +83,7 @@ a.button {
 }
 
 .back-video{
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
     z-index: -1;
